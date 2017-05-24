@@ -4,7 +4,7 @@
         <title>DigDeep</title>
     </head>
 
-    <!-- go to:  -->
+    <!-- go to: /node1.php -->
     <!-- flag: [] -->
 
     <body>
