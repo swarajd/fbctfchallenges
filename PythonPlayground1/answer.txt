@@ -1,0 +1,3 @@
+exec_isbad
+
+strategy: use exec to import
