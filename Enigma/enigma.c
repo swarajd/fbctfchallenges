@@ -27,6 +27,7 @@ int enigma(char* str) {
         int idx2 = vals[idx];
         char b = string[idx2];
         if (characters_not_equal(a, b)) {
+            fputs("wrong password!\n", stdout);
             return 0;
         }
         idx++;
