@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int enigma(char* str);
+int characters_not_equal(char a, char b);
 
 int main(int argc, char** argv) {
 
@@ -21,7 +22,11 @@ int enigma(char* str) {
     int idx = 0;
 
     while (idx < 8) {
-        if (str[idx] != string[vals[idx]]) {
+        char a = str[idx];
+
+        int idx2 = vals[idx];
+        char b = string[idx2];
+        if (characters_not_equal(a, b)) {
             return 0;
         }
         idx++;
@@ -29,4 +34,8 @@ int enigma(char* str) {
 
     printf("success!\n");
     return 0;
+}
+
+int characters_not_equal(char a, char b) {
+    return a != b;
 }
