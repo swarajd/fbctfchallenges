@@ -37,11 +37,6 @@ if (isset($_POST["middle"])) {
         $valid = 0;
     }
 
-    if (strpos($code, 'exec') !== false) {
-        echo "You can't exec!";
-        $valid = 0;
-    }
-
     if ($valid === 1) {
         $dir = getcwd();
         $file = $dir . '/' . hash('md5', time()) . 'test.py';
