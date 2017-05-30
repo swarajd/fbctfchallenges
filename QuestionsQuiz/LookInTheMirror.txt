@@ -1,0 +1,2 @@
+Question: What kind of XSS occurs when an attacker injects browser executable code within a single HTTP response
+Answer: Reflected XSS
