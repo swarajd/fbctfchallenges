@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h3>Dropbox: the early days</h3>
+<h3>Detective's files</h3>
 
 <?php
 $target_dir = "uploads/";

@@ -12,9 +12,9 @@
 
     <body>
 
-    <p>Humans write most of the files, but Wall-E wrote one of them for this server!</p>
+    <p>Sherlock write most of the files, but Watson's machine wrote one of them for this server!</p>
 
-    <img src="walle.jpg" alt="">
+    <img src="watson.jpg" alt="">
     </body>
 
 </html>
