@@ -2,3 +2,4 @@ Ciphertext: c29tZSBwZW9wbGUgY2FsbCBmb3J0cyBiYXNlcyB0b28=
 Solution: some people call forts bases too
 
 Method: base 64
+2 pts

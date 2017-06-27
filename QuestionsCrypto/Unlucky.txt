@@ -2,3 +2,5 @@ Ciphertext: dvxai elwiwii oceeii ucg wii jftl qvuhxdrvk hwt tyyoht "hviivvmen" w
 Solution: While neither Hopper nor her crew mentioned the phrase "debugging" in their logs, the case was held as an instance of literal "debugging." The term bug had been in use for many years in engineering.
 
 Method: vigenere cipher with word "hopper"
+
+15 pts
