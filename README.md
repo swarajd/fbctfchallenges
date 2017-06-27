@@ -5,7 +5,7 @@
 
 - BackInABit
 - PictureWorthAThousand
-- WallETellEm
+- WatsonTellEm
 - PythonPlayground1
 - WhereItAt
 

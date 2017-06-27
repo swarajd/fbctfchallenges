@@ -1,1 +1,2 @@
 fake_news
+10 pts

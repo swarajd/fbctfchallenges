@@ -1,3 +1,4 @@
 exec_isbad
 
 strategy: use exec to import
+30 pts
