@@ -13,10 +13,14 @@ CTF
 Crypto
 - CheckYourSoftware
 - ProtectTheFort
+- RoleReversal
+- BreakfastFood
 
 Quiz
 - BillTooHigh
 - CatchSherlockRoastingFools
+- Stephen
+- TryTryAgain
 
 ### Advanced
 
@@ -30,6 +34,8 @@ CTF
 Crypto
 - DetectivesCipher
 - Unlucky
+- HoldOnToThe
+- PlayThisWay
 
 Quiz
 - DisguisedFromDetective

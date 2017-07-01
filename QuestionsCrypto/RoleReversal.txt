@@ -1,0 +1,7 @@
+Ciphertext: Dszg dlfow szkkvm ru Hsviolxp zmw Dzghlm hdrgxsvw kozxvh? Gsvm Dzghlm dlfow hzb, "Vovnvmgzib, nb wvzi Hsviolxp." Zmw gszg dlfow qfhg hlfmw dvriw.
+
+Solution: What would happen if Sherlock and Watson switched places? Then Watson would say, "Elementary, my dear Sherlock." And that would just sound weird. 
+
+Method: atbash cipher
+
+5 pts
