@@ -40,6 +40,8 @@ Crypto
 Quiz
 - DisguisedFromDetective
 - LookInTheMirror
+- Valentines
+- PoppinCaps
 
 ### Cut questions
 
