@@ -1,4 +1,4 @@
 answer: I_aint_got_sql
 
-strategy: php injection instead
+strategy: php injection instead (e.g try `'' || 1`)
 40 pts
