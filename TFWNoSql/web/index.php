@@ -1,8 +1,11 @@
 <?php
-$password = 'super_secret';
 $form_pass = $_POST['form_pass'] ? $_POST['form_pass'] : "\"\"";
-$to_be_executed = "if ($password == {$form_pass}) { echo \"flag is: I_aint_got_sql<br>\"; }";
-eval($to_be_executed);
+$to_be_executed = "if ('super_secret' == {$form_pass}) { echo \"flag is: I_aint_got_sql<br>\"; }";
+if(strrpos($to_be_executed, '=') != 20) {
+    echo("ahh you thought you could inject like that");
+} else {
+    eval($to_be_executed);
+}
 ?>
 
 <p>This system doesn't have SQL. Try and hack it regardless!</p>
