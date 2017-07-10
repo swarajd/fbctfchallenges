@@ -1,0 +1,4 @@
+answer: I_aint_got_sql
+
+strategy: php injection instead
+40 pts
