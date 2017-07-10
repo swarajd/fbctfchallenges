@@ -1,5 +1,5 @@
 <?php
-$form_pass = $_POST['form_pass'] ? $_POST['form_pass'] : "\"\"";
+$form_pass = isset($_POST['form_pass']) ? $_POST['form_pass'] : "\"\"";
 $to_be_executed = "if ('super_secret' == {$form_pass}) { echo \"flag is: I_aint_got_sql<br>\"; }";
 if(strrpos($to_be_executed, '=') != 20) {
     echo("ahh you thought you could inject like that");
