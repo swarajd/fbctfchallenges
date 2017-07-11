@@ -10,6 +10,8 @@ function encrypt($str) {
     for ($i = 0; $i < $strln; $i++) {
         $encordval = 0;
         $strordval = 0;
+        $str_is_num = false;
+        $newchar = "";
 
         $cur_enc_char = substr($sessid, $i, 1);
         if (is_numeric($cur_enc_char)) {
@@ -21,14 +23,20 @@ function encrypt($str) {
 
         $cur_str_char = substr($str, $i, 1);
         if (is_numeric($cur_str_char)) {
-            $strordval = (((int)$cur_str_char + 26) % 26) + 97;
+            $strordval = (int)$cur_str_char;
+            $str_is_num = true;
         } else {
             $strordval = ord($cur_str_char);
         }
 
-        $newchar = ((($encordval - 97) + ($strordval - 97)) % 26) + 97;
+        if ($str_is_num) {
+            $newchar = (string)(($strordval + $encordval) % 9); 
+        } else {
+            $newchar = chr(((($encordval - 97) + ($strordval - 97)) % 26) + 97);
+        }
+
         // echo(($encordval - 97) . " . " . ($strordval - 97) . " . " . chr($newchar) . "<br/>");
-        $str[$i] = chr($newchar);
+        $str[$i] = $newchar;
     }
     return $str;
 }
