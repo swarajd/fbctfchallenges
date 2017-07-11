@@ -35,5 +35,5 @@ function encrypt($str) {
 
 setcookie("helping_hand", "c353936a6883a66379f45404fb048c92");
 
-echo("flag is: " . encrypt("61f6933f179df0c61cba100995e7ebea") . " or is it...");
+echo("flag is: " . encrypt("61f6933f179df0c61cba100995e7ebea"));
 ?>
