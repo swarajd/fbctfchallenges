@@ -3,7 +3,7 @@ function encrypt($str) {
 
     $str = strtolower($str);
 
-    $sessid = $_COOKIE['PHPSESSID'];
+    $sessid = "c353936a6883a66379f45404fb048c92";
     $strln = strlen($str);
 
     //I can do this because the str is always the sessid lol
@@ -33,5 +33,7 @@ function encrypt($str) {
     return $str;
 }
 
-echo("flag is: " . encrypt($_COOKIE['PHPSESSID'] . " or is it..."));
+setcookie("helping_hand", "c353936a6883a66379f45404fb048c92");
+
+echo("flag is: " . encrypt("61f6933f179df0c61cba100995e7ebea") . " or is it...");
 ?>

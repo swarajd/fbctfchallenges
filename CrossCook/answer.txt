@@ -1,0 +1,4 @@
+answer: hmmm
+
+strategy: check the cookies for a md5 hash, use that hash to unvigenere to get the original hash 
+60 pts
