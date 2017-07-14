@@ -30,6 +30,8 @@ CTF
 - Turing
 - MouseAndWire
 - Enigma
+- TFWNoSql
+- CrossCook
 
 Crypto
 - DetectivesCipher
