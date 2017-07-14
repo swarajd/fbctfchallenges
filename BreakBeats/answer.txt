@@ -1,6 +1,8 @@
 answer: ooh_steganography_tho
 
-solution: open in audacity, click on arrow next to name, click on spectrogram
+note: the challenge itself is the .wav file
+
+solution: open .wav file in audacity, click on arrow next to name, click on spectrogram
 
 hint: This is some spectral noise. Do you have the audacity to mess around with it?
 
