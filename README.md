@@ -9,6 +9,7 @@ CTF
 - WatsonTellEm
 - PythonPlayground1
 - WhereItAt
+- FishAndAir
 
 Crypto
 - CheckYourSoftware
@@ -33,6 +34,8 @@ CTF
 - TFWNoSql
 - CrossCook
 - BreakBeats
+- HideAndSeek
+- NetworkForensic
 
 Crypto
 - DetectivesCipher

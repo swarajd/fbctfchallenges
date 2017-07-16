@@ -1,4 +1,7 @@
-eval_isworse
+answer: eval_isworse
 
-strategy: use eval to import
+hint: get creative with HOW you can import ;)
+
+solution: use eval to import
+
 15 pts

@@ -1,2 +1,7 @@
-cenfodni
+answer: cenfodni
+
+hint: is there a trend you see in the hex references?
+
+solution: recognize that it's using an array as a "hashmap" and reconstruct the string from that
+
 100 pts

@@ -1,4 +1,7 @@
-exec_isbad
+answer: exec_isbad
 
-strategy: use exec to import
+hint: get creative with HOW you can import ;)
+
+solution: use exec to import
+
 30 pts

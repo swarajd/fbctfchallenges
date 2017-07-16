@@ -1,2 +1,7 @@
-_lets_play_another_game?_
+answer: _lets_play_another_game?_
+
+hint: what's the word that means to hide in an image?
+
+solution: use steghide to find out the strings associated with the images
+
 15 pts

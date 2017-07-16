@@ -1,4 +1,7 @@
 answer: I_aint_got_sql
 
-strategy: php injection instead (e.g try `'' || 1`)
+hint: what other ways can you inject in a PHP server, assuming it's only PHP?
+
+solution: php injection instead (e.g try `'' || 1`)
+
 40 pts

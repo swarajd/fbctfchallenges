@@ -1,2 +1,7 @@
-bebitw1s3r
+answer: bebitw1s3r
+
+hint: what is the domain of all possible characters this tests?
+
+solution: brute force it using another python script
+
 10 pts

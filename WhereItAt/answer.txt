@@ -1,2 +1,7 @@
-backup_urfiles
+answer: backup_urfiles
+
+hint: can you spoof the extension of the file?
+
+solution: spoof the extension and upload a dummy php file which displays the hostname
+
 20 pts

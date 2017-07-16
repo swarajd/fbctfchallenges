@@ -1,2 +1,7 @@
-fake_news
+answer: fake_news
+
+hint: certain file extensions have certain hex structures. Can you find out which one this file has?
+
+solution: convert the png to an mp3 and listen to it
+
 10 pts

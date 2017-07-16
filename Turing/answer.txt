@@ -1,2 +1,7 @@
-name_is_alan
+answer: name_is_alan
+
+hint: look at when the strings_are_equal method is being called and the parameters passed into into
+
+solution: print the value of the first parameter passed to strings_are_equal
+
 20 pts
