@@ -15,7 +15,7 @@
         if (isset($_POST['cookies'])) {
             $val = $_POST['cookies'];
         }
-		$message = 'WW91IGdvdCBpdCEgRmxhZzogY29va2llX291c3NpZGVfaG93X2JvdXRfZGF0%3D%3D';
+		$message = 'WW91IGdvdCBpdCEgRmxhZzogY29va2llX291c3NpZGVfaG93X2JvdXRfZGF0==';
 		setcookie("url_decode_this", $message, time() + 3600);
 	?>
 
