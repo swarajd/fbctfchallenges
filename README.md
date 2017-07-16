@@ -3,9 +3,11 @@
 
 ### Beginner
 
-CTF
+File-based
 - BackInABit
 - PictureWorthAThousand
+
+CTF
 - WatsonTellEm
 - PythonPlayground1
 - WhereItAt
@@ -25,17 +27,20 @@ Quiz
 
 ### Advanced
 
-CTF
+File-based
 - LooksCanBeDeceiving
-- PythonPlayground2
 - Turing
+- BreakBeats
+- HideAndSeek
+- NetworkForensic
+
+CTF
+- PythonPlayground2
 - MouseAndWire
 - Enigma
 - TFWNoSql
 - CrossCook
-- BreakBeats
-- HideAndSeek
-- NetworkForensic
+
 
 Crypto
 - DetectivesCipher
