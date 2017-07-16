@@ -1,0 +1,4 @@
+Question: what TCP port is attacked the most often
+Answer: 445
+
+5 pts

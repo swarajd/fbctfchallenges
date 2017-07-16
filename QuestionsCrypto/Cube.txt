@@ -1,0 +1,7 @@
+Ciphertext: 63756265735f686176655f7369785f7369646573
+
+Solution: cubes_have_six_sides
+
+Method: hex
+
+5 pts

@@ -18,6 +18,7 @@ Crypto
 - ProtectTheFort
 - RoleReversal
 - BreakfastFood
+- Cube
 
 Quiz
 - BillTooHigh
@@ -47,12 +48,15 @@ Crypto
 - Unlucky
 - HoldOnToThe
 - PlayThisWay
+- Box
 
 Quiz
 - DisguisedFromDetective
 - LookInTheMirror
 - Valentines
 - PoppinCaps
+- MalWornOut
+- TCPunchOut
 
 ### Cut questions
 
