@@ -32,6 +32,7 @@ CTF
 - Enigma
 - TFWNoSql
 - CrossCook
+- BreakBeats
 
 Crypto
 - DetectivesCipher
