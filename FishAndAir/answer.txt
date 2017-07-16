@@ -1,0 +1,7 @@
+answer: vigenere
+
+solution: put in aaaaaaaa and figure out it's vigenere
+
+hint: maybe try 8 of the same letter and find a pattern?
+
+20 pts
