@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MouseAndWire</title>
+        <title>AFeastForCookies</title>
     </head>
 
     <style>
@@ -10,22 +10,26 @@
     }
     </style>
 
+    <?php 
+        $val = '';
+        if (isset($_POST['cookies'])) {
+            $val = $_POST['cookies'];
+        }
+		$message = 'WW91IGdvdCBpdCEgRmxhZzogY29va2llX291c3NpZGVfaG93X2JvdXRfZGF0%3D%3D';
+		setcookie("url_decode_this", $message, time() + 3600);
+	?>
+
     <body>
 
-    <p>Shaggy and Scooby lost all of their Scooby Snacks. They might look into trying cookies instead. What kind of cookies should they get?</p>
-
-    <?php 
-
-    	$message = "WW91IGdvdCBpdCEgRmxhZzogY29va2llX291c3NpZGVfaG93X2JvdXRfZGF0=="
-
-		setcookie("use_this", $message, time() + 3600);
-    
-    ?>
-    
-    <form action="index.php">
-		What kind of cookies should they get? <input type="text" name="cookies" placeholder="enter here"><br>
-		<input type="submit" value="Submit">
-	</form>
+    	<p>
+    		Shaggy and Scooby lost all of their Scooby Snacks. They might look into trying cookies instead. What kind of cookies should they get?
+    	</p>
+	    
+		<h3>What kind of cookies should they get?</h3>
+	    <form action="" method="post">
+			<input type="text" name="cookies" value="<?php echo $val; ?>">
+			<input type="submit" value="Submit">
+		</form>
 
     </body>
 
