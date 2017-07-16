@@ -1,0 +1,7 @@
+answer: sneaky
+
+hint: try hexdump, and notice the pattern with the numbers
+
+solution: hexdump, first number is alphanumeric value in hex, second number is pointer to next address
+
+30 pts

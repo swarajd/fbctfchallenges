@@ -6,6 +6,7 @@
 File-based
 - BackInABit
 - PictureWorthAThousand
+- PointInTheRightDirection
 
 CTF
 - WatsonTellEm
