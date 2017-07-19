@@ -9,7 +9,7 @@ File-based
 - PointInTheRightDirection
 
 CTF
-- WatsonTellEm
+- ScrappyTellEm
 - PythonPlayground1
 - WhereItAt
 - FishAndAir
@@ -35,11 +35,11 @@ File-based
 - BreakBeats
 - HideAndSeek
 - NetworkForensic
+- Enigma
 
 CTF
 - PythonPlayground2
 - MouseAndWire
-- Enigma
 - TFWNoSql
 - CrossCook
 
