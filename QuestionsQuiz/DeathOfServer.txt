@@ -1,0 +1,5 @@
+Question: What type of attack exploits a part of TCP's three-way handshake to consume the targeted server's resources and render it unresponsive.
+
+Answer: SYN Flood Attack
+
+5 pts
