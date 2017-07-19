@@ -11,8 +11,12 @@ File-based
 CTF
 - ScrappyTellEm
 - PythonPlayground1
+- PythonPlayground2
 - WhereItAt
 - FishAndAir
+- AFeastForCookies
+- TimeMachine
+- MouseAndWire
 
 Crypto
 - CheckYourSoftware
@@ -38,10 +42,13 @@ File-based
 - Enigma
 
 CTF
+- PythonPlayground1
 - PythonPlayground2
 - MouseAndWire
 - TFWNoSql
 - CrossCook
+- SHA512
+- TimeMachine
 
 
 Crypto
