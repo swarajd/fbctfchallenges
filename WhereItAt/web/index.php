@@ -25,9 +25,9 @@ if (isset($_POST["submit"])) {
     }
 
     // Allow certain file formats
-    $uploaded_type = $_FILES[ 'uploaded' ][ 'type' ];
+    $uploaded_type = $_FILES[ 'fileToUpload' ][ 'type' ];
 
-    if ( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png" ) {
+    if (!( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png" )) {
         echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
         $uploadOk = 0;
     }
