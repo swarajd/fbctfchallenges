@@ -10,12 +10,13 @@
             <h2>Detective's files</h2>
 
             <?php
-            $target_dir = "uploads/";
-            $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-            $uploadOk = 1;
 
             // Check if $uploadOk is set to 0 by an error
-            if (isset($_POST["submit"])) {
+            if (isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
+
+                $target_dir = "uploads/";
+                $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+                $uploadOk = 1;
 
                 // Check if file already exists
                 if (file_exists($target_file)) {
