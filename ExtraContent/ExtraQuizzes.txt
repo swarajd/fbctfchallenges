@@ -1,0 +1,16 @@
+Question: What kind of XSS occurs when an attacker injects browser executable code within a single HTTP response
+Answer: Reflected XSS
+5 pts
+--------------------------------------------------
+Question: What is another word for a "UI redress attack"
+Answer: Clickjacking
+5 pts
+--------------------------------------------------
+Question: What does CSRF stand for?
+Answer: Cross Site Request Forgery
+5 pts
+--------------------------------------------------
+Question: What do you call a self-replicating code that propagates across a network in an automated fashion.
+Answer: Worm
+5 pts
+--------------------------------------------------

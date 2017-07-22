@@ -1,4 +1,0 @@
-Question: What is it called when you try a whole list of passwords on a website, knowing the username?
-Answer: brute force attack
-
-5 pts

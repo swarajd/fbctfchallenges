@@ -1,0 +1,56 @@
+/* ***************************** BEGINNER ***************************** */
+
+Question: What type of cyber attack is performed when an attacker threatens to publish victim's data unless the victim pays him to stop.
+Answer: Ransomware attack
+5 pts
+--------------------------------------------------
+Question: What is the name of the self propagating virus that took down MySpace in 2005.
+Answer: Samy
+5 pts
+--------------------------------------------------
+Question: What is a common utility used for sniffing network packets?
+Answer: Wireshark
+5 pts
+--------------------------------------------------
+Question: A malicious hacker has a long list of world's most common passwords. He is attempting to break into a victim's account by trying all of the passwords from his list. What type of attack is this malicious hacker performing? 
+Answer: Brute Force Attack
+5 pts
+--------------------------------------------------
+Question: What is the name of an attack that utilizes tools such as websites or emails to targets a specific organization or individual in order to gain unauthorized access to sesitive information such as passwords or credit card numbers.
+Answer: Spear Phishing
+5 pts
+--------------------------------------------------
+Question: Which cyber attack consists of a group of infected devices controlled by an attacker.
+Answer: Botnet
+5 pts
+--------------------------------------------------
+
+
+
+
+/* ***************************** ADVANCED ***************************** */
+
+Question: What type of attack exploits a part of TCP's three-way handshake to consume the targeted server's resources and render it unresponsive.
+Answer: SYN Flood Attack
+5 pts
+--------------------------------------------------
+Question: What refers to the Internet content that can not be or is not indexed by standard search engines like Google.
+Answer: Deep Web
+5 pts
+--------------------------------------------------
+Question: What is a DGA?
+Answer: Domain Generation Algorithm
+5 pts
+--------------------------------------------------
+Question: On Windows, ______  is the process of inserting code into a running process.
+Answer: DLL Injection
+5 pts
+--------------------------------------------------
+Question: Which computer port is most commonly attacked
+Answer: 445
+5 pts
+--------------------------------------------------
+Question: What was the virus that spread through email to attack tens of millions of Windows personal computers back around May 5th, 2000?
+Answer: ILOVEYOU
+5 pts
+--------------------------------------------------
