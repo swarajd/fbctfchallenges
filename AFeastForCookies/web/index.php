@@ -1,4 +1,11 @@
-
+<?php 
+    $val = '';
+    if (isset($_POST['cookies'])) {
+        $val = $_POST['cookies'];
+    }
+    $message = 'dHJ5X3RoaXNfZm9yX3lvdXJfYW5zd2Vy';
+    setcookie("ruh_roh_session", $message, time() + 7200);
+?>
 <html lang="en">
     <head>
         <title>TFWNoSql</title>
@@ -8,14 +15,6 @@
     </head>
     <body>
         <div class="page">
-            <?php 
-                $val = '';
-                if (isset($_POST['cookies'])) {
-                    $val = $_POST['cookies'];
-                }
-        		$message = 'dHJ5X3RoaXNfZm9yX3lvdXJfYW5zd2Vy';
-        		setcookie("ruh_roh_session", $message, time() + 7200);
-        	?>
         	<p>
         		Shaggy and Scooby ate all of the Scooby Snacks and are still hungry. Let's see what kind of other snacks they can find!
     	    </p>
