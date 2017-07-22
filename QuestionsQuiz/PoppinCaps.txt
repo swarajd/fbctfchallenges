@@ -1,4 +1,0 @@
-Question: what utility is used to sniff packets?
-Answer: wireshark
-
-5 pts

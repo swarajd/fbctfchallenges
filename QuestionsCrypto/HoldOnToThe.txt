@@ -1,7 +1,0 @@
-Ciphertext: T ai h  lcir ieatsn  t  dtr.vuhsi  rcycpe.Terifnecpe sdfntl  o eskonadqieabthre ocak aefnistkirhae hieiyll wnu iar cH !
-
-Solution: This is a tricky cipher. The railfence cipher is definitely a lot less known and quite a bit harder to crack. Have fun!
-
-Method: railfence cipher with 3 rails.
-
-15 pts

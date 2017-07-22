@@ -1,7 +1,0 @@
-Ciphertext: Siht dhnkbu ht eagkohudov zatw iommhdqpy. Oi vpt dbs xpmza oy G yfom aa zbud onlubyyae! Poc khoz zfcr okhis ca qtakqp (ops omy li dnqsuc) ht sidq sia pduudt G ht ogyyhoh!W
-
-Solution: This cipher is definitely very difficult. If you can solve it I will be very impressed! One hint that might be useful (not now of course) is that the letter J is missing!
-
-method: playfair cipher with J missing
-
-20 pts
