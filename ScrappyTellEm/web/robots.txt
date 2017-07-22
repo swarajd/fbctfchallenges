@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /W4ts0n.php
+Disallow: /Scr4ppy.php

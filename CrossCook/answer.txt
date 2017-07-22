@@ -2,6 +2,6 @@ answer: vigenere
 
 hint: a hash does not make the best encryption key...
 
-solution: check the cookies for a md5 hash, use that hash to unvigenere to get the original hash 
+solution: check the cookies for a md5 hash, decrypt that hash, use that 
 
 60 pts
