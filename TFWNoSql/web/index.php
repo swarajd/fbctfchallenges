@@ -20,7 +20,7 @@
 
 			<h2>This system doesn't have SQL. Try and hack it regardless!</h2>
 			<form action="#" method="POST">
-			    <input type="text" name="form_pass">
+			    <input type="text" name="form_pass" autocomplete="off">
 			    <input type="submit">
 			</form>
 			<img src="./css/picture.jpg" alt="picture">
