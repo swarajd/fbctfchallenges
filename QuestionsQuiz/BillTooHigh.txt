@@ -1,4 +1,0 @@
-Question: what is the attack called when an attacker has encrypted all of the victim's information and is willing to decrypt it for a price
-Answer: ransomware attack
-
-5 pts

@@ -1,0 +1,88 @@
+/* ***************************** BEGINNER ***************************** */
+Ciphertext: f9fa10ba956cacf91d7878861139efb9
+
+Solution: software
+
+Method: md5
+5 pts
+______________________________________________________________
+Ciphertext: c29tZSBwZW9wbGUgY2FsbCBmb3J0cyBiYXNlcyB0b28=
+
+Solution: some people call forts bases too
+
+Method: base 64
+5 pts
+______________________________________________________________
+Ciphertext: Dszg dlfow szkkvm ru Hsviolxp zmw Dzghlm hdrgxsvw kozxvh? Gsvm Dzghlm dlfow hzb, "Vovnvmgzib, nb wvzi Hsviolxp." Zmw gszg dlfow qfhg hlfmw dvriw.
+
+Solution: What would happen if Sherlock and Watson switched places? Then Watson would say, "Elementary, my dear Sherlock." And that would just sound weird. 
+
+Method: atbash cipher
+
+5 pts
+______________________________________________________________
+Ciphertext: BAABBAABBBABAAABAABA BAABAAABBBABBBABABAAABABBAAABB AAAABAABAA AAAAABAABA AABAAAAAAABAABABBAAA AAAAABAABA AABAAAAAAABAABBABAAAABBABAABBA AAAABAAAAAAAABAABBBAABBAB
+
+Solution: This should be as easy as eating bacon.
+
+method: baconian cipher
+
+5 pts
+______________________________________________________________
+Ciphertext: 63756265735f686176655f7369785f7369646573
+
+Solution: cubes_have_six_sides
+
+Method: hex
+
+5 pts
+______________________________________________________________
+
+
+
+/* ***************************** ADVANCED ***************************** */
+Ciphertext: NYOT ASYTG ERZ AGVGR QGETA EUY YOT NEHBGTA LTYOUBH NYTHB YR HBIA SYRHIRGRH, E RGC REHIYR, SYRSGIVGZ IR DILGTHQ, ERZ ZGZISEHGZ HY HBG FTYFYAIHIYR HBEH EDD KGR ETG STGEHGZ GMOED.
+
+Solution: FOUR SCORE AND SEVEN YEARS AGO OUR FATHERS BROUGHT FORTH ON THIS CONTINENT, A NEW NATION, CONCEIVED IN LIBERTY, AND DEDICATED TO THE PROPOSITION THAT ALL MEN ARE CREATED EQUAL.
+
+Method: affine cipher with a = 7, b = 4
+
+10 pts
+______________________________________________________________
+Ciphertext: dvxai elwiwii oceeii ucg wii jftl qvuhxdrvk hwt tyyoht "hviivvmen" wc ilvpf adkj, avt rejl kph lvsr ph ee pbhieejs du pzasgpp "ulpjvkzuu." iwi klfb qyx oos qivu wc jwv mcg beef mtpvj pb tckzustgmen.
+
+Solution: While neither Hopper nor her crew mentioned the phrase "debugging" in their logs, the case was held as an instance of literal "debugging." The term bug had been in use for many years in engineering.
+
+Method: vigenere cipher with word "hopper"
+
+15 pts
+______________________________________________________________
+Ciphertext: T ai h  lcir ieatsn  t  dtr.vuhsi  rcycpe.Terifnecpe sdfntl  o eskonadqieabthre ocak aefnistkirhae hieiyll wnu iar cH !
+
+Solution: This is a tricky cipher. The railfence cipher is definitely a lot less known and quite a bit harder to crack. Have fun!
+
+Method: railfence cipher with 3 rails.
+
+15 pts
+______________________________________________________________
+Ciphertext: Siht dhnkbu ht eagkohudov zatw iommhdqpy. Oi vpt dbs xpmza oy G yfom aa zbud onlubyyae! Poc khoz zfcr okhis ca qtakqp (ops omy li dnqsuc) ht sidq sia pduudt G ht ogyyhoh!W
+
+Solution: This cipher is definitely very difficult. If you can solve it I will be very impressed! One hint that might be useful (not now of course) is that the letter J is missing!
+
+method: playfair cipher with J missing
+
+20 pts
+______________________________________________________________
+Ciphertext:
+
+g   t   Xn   p   Xi   y   Xt t r ylXaexnc rlXtheanteeXottceivwXr  
+
+Solution:
+
+rotating the     text    can     encrypt it      very    well    
+
+Method: rotation cipher left 90 degrees, box width 8
+
+10 pts
+______________________________________________________________
+
