@@ -12,20 +12,27 @@
             <?php
 
             // Check if $uploadOk is set to 0 by an error
+            // var_dump($_POST);
             if (isset($_POST["submit"]) && isset($_FILES["fileToUpload"])) {
 
                 $target_dir = "uploads/";
                 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
                 $uploadOk = 1;
 
+                // Check if a file was uploaded
+                if ($_FILES["fileToUpload"]["name"] == "") { 
+                    echo '<font color="red"><h3>Sorry, you must upload a file</h3></font>';
+                    $uploadOk = 0;
+                }
+
                 // Check if file already exists
-                if (file_exists($target_file)) {
+                if (file_exists($target_file) && $uploadOk != 0) {
                     echo '<font color="red"><h3>Sorry, file already exists.</h3></font>';
                     $uploadOk = 0;
                 }
 
                 // Check file size
-                if ($_FILES["fileToUpload"]["size"] > 500000) {
+                if ($_FILES["fileToUpload"]["size"] > 500000 && $uploadOk != 0) {
                     echo '<font color="red"><h3>Sorry, your file is too large.</h3></font>';
                     $uploadOk = 0;
                 }
@@ -33,13 +40,13 @@
                 // Allow certain file formats
                 $uploaded_type = $_FILES[ 'fileToUpload' ][ 'type' ];
 
-                if (!( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png") ) {
+                if (!( $uploaded_type == "image/jpeg" || $uploaded_type == "image/png") && $uploadOk != 0) {
                     echo '<font color="red"><h3>Sorry, only JPG, JPEG, PNG & GIF files are allowed.</h3></font>';
                     $uploadOk = 0;
                 }
 
                 if ($uploadOk == 0) {
-                    echo "Sorry, your file was not uploaded.";
+                    // echo "Sorry, your file was not uploaded.";
                     // if everything is ok, try to upload file
                 } else {
                     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
