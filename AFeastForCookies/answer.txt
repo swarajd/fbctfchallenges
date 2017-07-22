@@ -1,4 +1,5 @@
-answer: cookie_ousside_how_bout_dat
+answer: session_cookies_with_raisins
+
 
 hint: what are some of the ways you can view browser cookies?
 
