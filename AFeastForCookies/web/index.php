@@ -13,7 +13,7 @@
                 if (isset($_POST['cookies'])) {
                     $val = $_POST['cookies'];
                 }
-        		$message = 'WW91IGdvdCBpdCEgRmxhZzogc2Vzc2lvbl9jb29raWVzX3dpdGhfcmFpc2lucw==';
+        		$message = 'dHJ5X3RoaXNfZm9yX3lvdXJfYW5zd2Vy';
         		setcookie("ruh_roh_session", $message, time() + 7200);
         	?>
         	<p>
@@ -24,6 +24,15 @@
     			<input type="text" name="cookies" value="<?php echo $val; ?>">
     			<input type="submit" value="Submit">
     		</form>
+            <?php
+                if (isset($_POST['cookies'])) {
+                    if ($val == 'try_this_for_your_answer') {
+                        echo("<h3><font color='green'>You got it! Flag:session_cookies_with_raisins</font></h3>");
+                    } else {
+                        echo("<h3><font color='red'>Nope! Try again</font></h3>");
+                    }
+                }
+            ?>
             <img src="./css/picture.png" alt="picture">
         </div>
     </body>
