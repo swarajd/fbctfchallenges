@@ -4,4 +4,4 @@ hint: get creative with HOW you can import ;)
 
 solution: use exec to import
 
-30 pts
+15 pts
