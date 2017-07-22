@@ -26,7 +26,7 @@
 
 			<h3>Answer:</h3>
 			<form action="#" method="POST">
-				<input type="text" name="answer" value="<?php echo htmlspecialchars($ans); ?>">
+				<input type="text" name="answer" value="<?php echo htmlspecialchars($ans); ?>" autocomplete="off">
 				<input type="submit">
 			</form>
 

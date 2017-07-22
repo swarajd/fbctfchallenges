@@ -34,7 +34,7 @@
             ?>
             <h2>Enter an 8 digit alphabetic password</h2>
             <form action="#" method="POST">
-                <input type="text" name="layer" placeholder="ex.abcdefgh">
+                <input type="text" name="layer" placeholder="ex.abcdefgh" autocomplete="off">
                 <input type="submit">
             </form>
             <img src="./css/picture.png" alt="picture">
