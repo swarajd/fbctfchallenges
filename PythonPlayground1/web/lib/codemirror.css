@@ -338,3 +338,11 @@ div.CodeMirror-dragcursors {
 
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
+
+.CodeMirror {
+    line-height: 1.2em;
+    height: 6.0em;
+    white-space: pre-wrap;
+    text-align: left;
+    /*max-height: 50px;*/
+}

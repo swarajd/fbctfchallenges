@@ -1,62 +1,68 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <title>PythonPlayground2</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="lib/codemirror.css">
+        <link rel="stylesheet" media="all" href="./css/style.css" />
+        <style>
+            .CodeMirror {
+                line-height: 1.2em;
+                height: 6.0em;
+                white-space: pre-wrap;
+                text-align: left;
+            }
+            #submitCode {
+                margin-top: 30px;
+                min-width: 100px;
+                min-height: 30px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <h3>Python Playground</h3>
+            <p>determine this machine's hostname!</p>
+            <form action="index.php" method="post">
+                <textarea id="myTextareaFirst" name="first"></textarea>
+                <textarea id="myTextareaMiddle" name="middle"></textarea>
+                <textarea id="myTextareaLast" name="last"></textarea>
+                <button id="submitCode">submit</button>
+            </form>
 
-<link rel="stylesheet" href="lib/codemirror.css">
-<style>
-    .CodeMirror {
-        line-height: 1.2em;
-        height: 6.0em;
-        white-space: pre-wrap;
-        /*max-height: 50px;*/
-    }
-</style>
+            <?php
+                if (isset($_POST["middle"])) {
+                    $code = $_POST["first"] . $_POST["middle"] . $_POST["last"];
 
-<body>
+                    $valid = 1;
 
-<h3>Python Playground</h3>
+                    if (strpos($code, 'import') !== false) {
+                        echo "You can't import!";
+                        $valid = 0;
+                    }
 
-<p>determine this machine's hostname!</p>
+                    if (strpos($code, 'exec') !== false) {
+                        echo "You can't exec!";
+                        $valid = 0;
+                    }
 
-<form action="index.php" method="post">
-    <textarea id="myTextareaFirst" name="first"></textarea>
-    <textarea id="myTextareaMiddle" name="middle"></textarea>
-    <textarea id="myTextareaLast" name="last"></textarea>
+                    if ($valid === 1) {
+                        $dir = getcwd();
+                        $file = $dir . '/' . hash('md5', time()) . 'test.py';
+                        file_put_contents($file, $code);
 
-    <button id="submitCode">submit</button>
-</form>
+                        $cmd = 'python \'' . $file . '\'';
+                        $out = `python '{$dir}/run.py' 0.5 {$cmd}`;
 
-<?php
+                        unlink($file);
 
-if (isset($_POST["middle"])) {
-    $code = $_POST["first"] . $_POST["middle"] . $_POST["last"];
-
-    $valid = 1;
-
-    if (strpos($code, 'import') !== false) {
-        echo "You can't import!";
-        $valid = 0;
-    }
-
-    if (strpos($code, 'exec') !== false) {
-        echo "You can't exec!";
-        $valid = 0;
-    }
-
-    if ($valid === 1) {
-        $dir = getcwd();
-        $file = $dir . '/' . hash('md5', time()) . 'test.py';
-        file_put_contents($file, $code);
-
-        $cmd = 'python \'' . $file . '\'';
-        $out = `python '{$dir}/run.py' 0.5 {$cmd}`;
-
-        unlink($file);
-
-        echo 'the output is: ' . $out;
-    }
-}
-
-?>
+                        echo 'the output is: ' . $out;
+                    }
+                }
+            ?>
+        </div>
+    </body>
 
 <script src="lib/codemirror.js"></script>
 <script src="mode/python/python.js"></script>
