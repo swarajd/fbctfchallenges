@@ -1,3 +1,5 @@
+<?php setcookie("subtract_this", "c353936a6883a66379f45404fb048c92"); ?>
+
 <html lang="en">
     <head>
         <title>CrossCook</title>
@@ -8,8 +10,6 @@
     <body>
         <div class="page">
             <?php
-
-            setcookie("subtract_this", "c353936a6883a66379f45404fb048c92");
 
             echo('<font color="green"><h3>Flag is: ' . "61m6933r179pr0j61onm100995l7qnqh" . '</h3></font>');
           

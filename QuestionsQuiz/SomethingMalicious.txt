@@ -1,5 +1,0 @@
-Question: On Windows, ______  is the process of inserting code into a running process.
-
-Answer: DLL Injection
-
-5 pts

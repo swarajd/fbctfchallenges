@@ -1,4 +1,0 @@
-Question: What is another word for a "UI redress attack"
-Answer: Clickjacking
-
-5 pts

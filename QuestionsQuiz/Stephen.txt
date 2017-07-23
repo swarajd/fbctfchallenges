@@ -1,5 +1,0 @@
-Question: What is called when you send emails that look like they're from real websites, but in reality it's fake and you're gathering information about others, such as passwords or credit card numbers.
-
-Answer: phishing
-
-5 pts

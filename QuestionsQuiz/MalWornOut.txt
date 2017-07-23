@@ -1,4 +1,0 @@
-Question: What is a DGA?
-Answer: Domain Generation Algorithm
-
-5 pts
