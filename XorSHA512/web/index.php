@@ -4,6 +4,7 @@
 -->
 <html lang="en">
     <head>
+        <title>XorSHA512</title>
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
     <body>

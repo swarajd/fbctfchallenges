@@ -4,6 +4,7 @@
 -->
 <html lang="en">
     <head>
+        <title>Chameleon</title>
     </head>
     <body>
         <br/>

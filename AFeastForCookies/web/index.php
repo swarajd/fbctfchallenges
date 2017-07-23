@@ -8,7 +8,7 @@
 ?>
 <html lang="en">
     <head>
-        <title>TFWNoSql</title>
+        <title>AFeastForCookies</title>
         <meta charset="utf-8">
         <meta name="description" content="">
         <link rel="stylesheet" media="all" href="./css/style.css" />
