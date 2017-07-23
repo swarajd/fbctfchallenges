@@ -1,6 +1,6 @@
 answer: eval_isworse
 
-hint: get creative with HOW you can import ;)
+hint: Try and _evaluate_ your choices when it comes to how to import
 
 solution: use eval to import
 

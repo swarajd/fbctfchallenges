@@ -1,7 +1,7 @@
-answer: vigenere
+answer: cryptography
 
-hint: maybe try 8 of the same letter and find a pattern?
+hint: maybe try 12 of the same letter and find a pattern?
 
-solution: put in aaaaaaaa and figure out it's vigenere
+solution: put in zzzzzzzzzzzz and figure out it's "cryptography"
 
 20 pts

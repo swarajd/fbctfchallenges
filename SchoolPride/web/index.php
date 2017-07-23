@@ -4,6 +4,7 @@ Created by. Jinwoo
 -->
 <html lang="en">
     <head>
+        <title> SchoolPride </title>
         <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
     <body>

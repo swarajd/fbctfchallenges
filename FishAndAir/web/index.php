@@ -9,7 +9,7 @@
         <div class="page">
             <?php
             if (isset($_POST['layer']) && strlen($_POST['layer']) == 8) {
-                $base = "vigenere";
+                $base = "cryptography";
                 $toAdd = strtolower($_POST['layer']);
 
                 for ($i = 0; $i < 8; $i++) {
@@ -32,9 +32,9 @@
                 }
             }
             ?>
-            <h2>Enter an 8 digit alphabetic password</h2>
+            <h2>Enter a 12 digit alphabetic password</h2>
             <form action="#" method="POST">
-                <input type="text" name="layer" placeholder="ex.abcdefgh" autocomplete="off">
+                <input type="text" name="layer" placeholder="ex.abcdefghijkl" autocomplete="off">
                 <input type="submit">
             </form>
             <img src="./css/picture.png" alt="picture">
