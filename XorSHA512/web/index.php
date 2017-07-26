@@ -33,11 +33,11 @@
 
 			<?php
 				if ($text != "") {
-					echo $text;
+					echo htmlspecialchars($text);
 					echo '<br/>';
 					echo "Encodes to";
 					echo '<br/>';
-					echo $result;
+					echo htmlspecialchars($result);
 					echo '<br/><br/>';
 				}
 			?>

@@ -1,0 +1,348 @@
+Questions Library
+
+Link: https://vtfbctf.com/index.php
+
+** The ones that are highlighted are in both challenges
+
+Scooby
+
+BackInABit
+FishAndAir
+HideAndSeek
+MouseAndWire
+PictureWorthAThousand
+PointInTheRightDirection
+PythonPlayground1
+PythonPlayground2
+ScrappyTellEm
+WhereItAt
+SchoolPride
+TimeMachine
+AFeastForCookies
+
+Sherlock
+
+BreakBeats
+CrossCook
+Enigma
+HideAndSeek
+LooksCanBeDecieving 
+MouseAndWire
+NetworkAndForsensic
+PythonPlayground1
+PythonPlayground2
+TFWNoSql
+Turing
+XorSHA512
+TimeMachine
+
+
+
+
+
+
+
+
+CTF Challenges
+
+AFeastForCookies
+
+Answer: session_cookies_with_raisins
+Hint: What are some of the ways you can view browser cookies?
+Solution: enter "><Script>alert(document.cookie);</Script> in the input box, url decode cookie, decrypt result with Base64.
+Tools: Browser
+Points: 10
+
+BackInABit
+
+Answer: bebitw1s3r
+Hint: What is the domain of all possible characters this tests?
+Solution: Brute force it using another python script.
+Tools: Python
+Points: 60
+
+BreakBeats
+
+Answer: ooh_steganography_tho
+Note: The challenge itself is the .wav file.
+Hint: This is some spectral noise. Do you have the audacity to mess around with it?
+Solution: Open .wav file in audacity, click on arrow next to name, click on spectrogram.
+Tools: Audacity
+Points: 30
+
+Chameleon (Tutorial)
+
+Answer: live_like_chameleons 
+Tools: Browser
+Points: 5
+
+CrossCook
+
+Answer: vigenere
+Hint: There’s some help in the cookies, but what does the decrypted cookie do for you?
+Solution: Check the cookies for a md5 hash, decrypt that hash, use that.
+Tools: MD5, Vigenere
+Points: 50
+
+Enigma
+
+Answer: cenfodni
+Hint: Is there a trend you see in the hex references?
+Solution: Recognize that it's using an array as a "hashmap" and reconstruct the string from that.
+Tools: GDB, Objdump, Shell Commands
+Points: 100
+
+FishAndAir
+
+Answer: cryptography
+Hint: Maybe try 12 of the same letter and find a pattern?
+Solution: Put in zzzzzzzzzzzz and figure out it's "cryptography”.
+Tools: Vigenere
+Points: 40
+
+HideAndSeek
+
+Answer: _lets_play_another_game?_
+Hint: What's the word that means to hide in an image?
+Solution: Use steghide to find out the strings associated with the images.
+Tools: Steghide, Shell Commands
+Points: 50
+
+LooksCanBeDeceiving 
+
+Answer: fake_news
+Hint: Certain file extensions have certain hex structures. Can you find out which one this file has?
+Solution: Convert the png to an mp3 and listen to it.
+Tools: Audacity
+Points: 40
+
+MouseAndWire
+
+Answer: glass_of_milk
+Hint: Our Technicians only deal with cookies.
+Tools: Browser
+Points: 30
+
+NetworkForensic
+
+Answer: 39u7v25n1jxkl123
+Hint: Follow the trail of the cryptographic method
+Solution: Use the SSL key to decrypt the pcap, search for a login.
+Tools: Steghide, Shell Commands
+Points: 60
+
+PictureWorthAThousand
+
+Answer: you_are_a_detective
+Hint: Criminal justice uses this information embedded in the data for an image for evidence.
+Solution: Look at the exif data, specifically the comments.
+Tools: Exif
+Points: 10
+
+PointInTheRightDirection
+
+Answer: sneaky
+Hint: If 1 is ‘a’ would 26 be ‘z’
+Solution: Hexdump, first number is alphanumeric value in hex, second number is pointer to next address.
+Tools: Hexdump, Shell Commands
+Points: 50
+
+PythonPlayground1
+
+Answer: exec_isbad
+Hint: Get creative with HOW you can import.
+Solution: Use exec to import.
+Tools: Python
+Points: 40
+
+PythonPlayground2
+
+Answer: eval_isworse
+Hint: Try and _evaluate_ your choices when it comes to how to import.
+Solution: Use eval to import.
+Tools: Python
+Points: 60
+
+SchoolPride
+
+Answer: VT4LifeAmiRighT?
+Hint: Do you know how to parse a file? Look at the ASCII art, what are the characters that you can parse out?
+Tools: ASCII
+Points: 40
+
+ScrappyTellEm
+
+Answer: scrappy_is_sidekick
+Hint: What kind of files to websites use to prevent robots from scraping certain areas?
+Solution: Look at robots.txt and go to Scr4ppy.php.
+Tools: IDOR
+Points: 20
+
+
+TFWNoSql
+
+Answer: I_aint_got_sql
+Hint: what other ways can you inject in a PHP server, assuming it's only PHP?
+Solution: php injection instead (e.g try `'' || 1`)
+Tools: SQL Injection
+Points: 50
+
+TimeMachine
+
+Answer: Time_is_Money_so_is_ATM_a_TimeMachine?
+Hint: What is wayback timemachine?
+Solution: Print the value of the first parameter passed to strings_are_equal.
+Points: 40
+
+
+Turing
+
+Answer: name_is_alan
+Hint: look at when the strings_are_equal method is being called and the parameters passed into into
+Solution:
+Tools: GDB, Objdump, Shell Commands
+Points: 60
+
+
+WhereItAt
+
+Answer: backup_urfiles
+Hint: can you spoof the extension of the file?
+Solution: spoof the extension and upload a dummy php file which displays the hostname
+Tools: BurpSuite
+Points: 30
+
+XorSHA512
+
+Answer: 5724b8cda2e259337cac6ed61af8a22914ffba633432af1690d5d2525606967610027a9ecf01913a
+Hint: For your key, try 'fb' or something…
+Tools: ???
+Points: 80
+
+
+
+
+
+
+
+
+Quiz Questions
+
+Scooby
+
+Question: What type of cyber attack is performed when an attacker threatens to publish victim's data unless the victim pays him to stop?
+Answer: Ransomware attack
+Points: 5
+
+Question: What is the name of the self propagating virus that took down Myspace in 2005?
+Answer: Samy
+Points: 5
+
+Question: What is a common utility used for sniffing network packets?
+Answer: Wireshark
+Points: 5 
+
+Question: What type of attack is performed when a hacker attempts to break into victim's account by trying all of the passwords from a list of common passwords?
+Answer: Brute Force
+Points: 5
+
+Question: What type of attack utilizes email-spoofing to target a specific organization or individual in order to gain unauthorized access to sensitive information?
+Answer: Spear Phishing
+Points: 10
+
+
+Question: Which cyber attack consists of a group of infected devices controlled by an attacker?
+Answer: Botnet
+Points: 10
+
+
+Sherlock
+
+Question: What type of attack exploits a part of TCP's three-way handshake to consume the targeted server's resources and render it unresponsive?
+Answer: SYN Flood Attack
+Points: 5
+
+Question: What refers to the Internet content that can not be or is not indexed by standard search engines like Google?
+Answer: Deep Web
+Points: 5
+
+Question: What is a DGA?
+Answer: Domain Generation Algorithm
+Points: 5
+
+Question: What is the process of inserting code into a running process on Windows?
+Answer: DLL Injection
+Points: 5
+
+Question: Which computer port is most commonly attacked?
+Answer: 445
+Points: 5
+
+Question: What was the virus that spread through email to attack tens of millions of Windows personal computers back around May 5th, 2000?
+Answer: ILOVEYOU
+Points: 5
+
+
+Crypto Questions
+
+Scooby
+
+Ciphertext: f9fa10ba956cacf91d7878861139efb9
+Solution: software
+Method: md5
+Points: 5
+
+Ciphertext: c29tZSBwZW9wbGUgY2FsbCBmb3J0cyBiYXNlcyB0b28=
+Solution: some people call forts bases too
+Method: base 64
+Points: 5
+
+Ciphertext: Dszg dlfow szkkvm ru Hsviolxp zmw Dzghlm hdrgxsvw kozxvh? Gsvm Dzghlm dlfow hzb, "Vovnvmgzib, nb wvzi Hsviolxp." Zmw gszg dlfow qfhg hlfmw dvriw.
+Solution: What would happen if Sherlock and Watson switched places? Then Watson would say, "Elementary, my dear Sherlock." And that would just sound weird.
+Method: atbash cipher
+Points: 10
+
+Ciphertext: BAABBAABBBABAAABAABA BAABAAABBBABBBABABAAABABBAAABB AAAABAABAA AAAAABAABA AABAAAAAAABAABABBAAA AAAAABAABA AABAAAAAAABAABBABAAAABBABAABBA AAAABAAAAAAAABAABBBAABBAB
+Solution: This should be as easy as eating bacon.
+Method: baconian cipher
+Points: 5
+
+Ciphertext: 63756265735f686176655f7369785f7369646573
+Solution: cubes_have_six_sides
+Method: hex
+Point: 10
+
+Sherlock
+
+Ciphertext: NYOT ASYTG ERZ AGVGR QGETA EUY YOT NEHBGTA LTYOUBH NYTHB YR HBIA SYRHIRGRH, E RGC REHIYR, SYRSGIVGZ IR DILGTHQ, ERZ ZGZISEHGZ HY HBG FTYFYAIHIYR HBEH EDD KGR ETG STGEHGZ GMOED.
+Solution: FOUR SCORE AND SEVEN YEARS AGO OUR FATHERS BROUGHT FORTH ON THIS CONTINENT, A NEW NATION, CONCEIVED IN LIBERTY, AND DEDICATED TO THE PROPOSITION THAT ALL MEN ARE CREATED EQUAL.
+Method: affine cipher with a = 7, b = 4
+Points: 10
+
+
+Ciphertext: dvxai elwiwii oceeii ucg wii jftl qvuhxdrvk hwt tyyoht "hviivvmen" wc ilvpf adkj, avt rejl kph lvsr ph ee pbhieejs du pzasgpp "ulpjvkzuu." iwi klfb qyx oos qivu wc jwv mcg beef mtpvj pb tckzustgmen.
+Solution: While neither Hopper nor her crew mentioned the phrase "debugging" in their logs, the case was held as an instance of literal "debugging." The term bug had been in use for many years in engineering.
+Method: vigenere cipher with word "hopper"
+Points: 15 pts
+
+
+
+Ciphertext: T ai h  lcir ieatsn  t  dtr.vuhsi  rcycpe.Terifnecpe sdfntl  o eskonadqieabthre ocak aefnistkirhae hieiyll wnu iar cH !
+Solution: This is a tricky cipher. The railfence cipher is definitely a lot less known and quite a bit harder to crack. Have fun!
+Method: railfence cipher with 3 rails.
+Points: 15 
+
+
+
+Ciphertext: Siht dhnkbu ht eagkohudov zatw iommhdqpy. Oi vpt dbs xpmza oy G yfom aa zbud onlubyyae! Poc khoz zfcr okhis ca qtakqp (ops omy li dnqsuc) ht sidq sia pduudt G ht ogyyhoh!W
+Solution: This cipher is definitely very difficult. If you can solve it I will be very impressed! One hint that might be useful (not now of course) is that the letter J is missing!
+Method: playfair cipher with J missing
+Hint: A Cipher uses 5x5 grid
+Points: 30
+
+Need Last Crypto
+
+Ciphertext: tbe oert rkbmmg ml tbe ehrt kmhrt cr vcqaclch tekb
+Solution: The best school on the east coast is Virginia Tech
+Method: Keyed Ceasar Cipher + Key: Hokies
+Points: 30

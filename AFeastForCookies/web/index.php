@@ -20,7 +20,7 @@
     	    </p>
     		<h2>What kind of snacks did they find?</h2>
     	    <form action="" method="post">
-    			<input type="text" name="cookies" value="<?php echo $val; ?> autocomplete="off"">
+    			<input type="text" name="cookies" value="<?php echo $val; ?>" autocomplete="off">
     			<input type="submit" value="Submit">
     		</form>
             <?php
