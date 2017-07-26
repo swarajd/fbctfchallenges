@@ -8,11 +8,11 @@
     <body>
         <div class="page">
             <?php
-            if (isset($_POST['layer']) && strlen($_POST['layer']) == 8) {
+            if (isset($_POST['layer']) && strlen($_POST['layer']) == 12) {
                 $base = "cryptography";
                 $toAdd = strtolower($_POST['layer']);
 
-                for ($i = 0; $i < 8; $i++) {
+                for ($i = 0; $i < 12; $i++) {
                     $curBase = substr($base, $i, 1);
                     $baseOrd = ord($curBase) - 97;
 
@@ -25,7 +25,7 @@
                     $base[$i] = chr($newOrd);
                 }
 
-                if ($base == "vigenere") {
+                if ($base == "cryptography") {
                     echo('<font color="green"><h3>Flag: ' . $base . '</h3></font>');
                 } else{
                     echo('<font color="red"><h3>Wrong: ' . $base . '</h3></font>');
