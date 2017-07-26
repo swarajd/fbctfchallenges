@@ -1,7 +1,5 @@
-answer: sneaky
-
-hint: try hexdump, and notice the pattern with the numbers
-
-solution: hexdump, first number is alphanumeric value in hex, second number is pointer to next address
-
-30 pts
+Answer: sneaky
+Hint: If 1 is ‘a’ would 26 be ‘z’
+Solution: Hexdump, first number is alphanumeric value in hex, second number is pointer to next address.
+Tools: Hexdump, Shell Commands
+Points: 50

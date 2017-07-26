@@ -1,7 +1,5 @@
-answer: _lets_play_another_game?_
-
-hint: what's the word that means to hide in an image?
-
-solution: use steghide to find out the strings associated with the images
-
-15 pts
+Answer: _lets_play_another_game?_
+Hint: What's the word that means to hide in an image?
+Solution: Use steghide to find out the strings associated with the images.
+Tools: Steghide, Shell Commands
+Points: 50

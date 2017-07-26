@@ -35,7 +35,7 @@ Solution: cubes_have_six_sides
 
 Method: hex
 
-5 pts
+10 pts
 ______________________________________________________________
 
 
@@ -66,23 +66,15 @@ Method: railfence cipher with 3 rails.
 15 pts
 ______________________________________________________________
 Ciphertext: Siht dhnkbu ht eagkohudov zatw iommhdqpy. Oi vpt dbs xpmza oy G yfom aa zbud onlubyyae! Poc khoz zfcr okhis ca qtakqp (ops omy li dnqsuc) ht sidq sia pduudt G ht ogyyhoh!W
-
 Solution: This cipher is definitely very difficult. If you can solve it I will be very impressed! One hint that might be useful (not now of course) is that the letter J is missing!
-
-method: playfair cipher with J missing
-
-20 pts
-______________________________________________________________
+Method: playfair cipher with J missing
+Hint: A Cipher uses 5x5 grid
+Points: 30
+____________________-----------------_________________________
 Ciphertext:
-
-g   t   Xn   p   Xi   y   Xt t r ylXaexnc rlXtheanteeXottceivwXr  
-
-Solution:
-
-rotating the     text    can     encrypt it      very    well    
-
-Method: rotation cipher left 90 degrees, box width 8
-
-10 pts
+Ciphertext: tbe oert rkbmmg ml tbe ehrt kmhrt cr vcqaclch tekb
+Solution: The best school on the east coast is Virginia Tech
+Method: Keyed Ceasar Cipher + Key: Hokies
+Points: 30
 ______________________________________________________________
 

@@ -1,5 +1,4 @@
-answer: VT4LifeAmiRighT?
-
-hint: Do you know how to parse a file? Look at the ASCII art, what are the characters that you can parse out?
-
-50 pts
+Answer: VT4LifeAmiRighT?
+Hint: Do you know how to parse a file? Look at the ASCII art, what are the characters that you can parse out?
+Tools: ASCII
+Points: 40

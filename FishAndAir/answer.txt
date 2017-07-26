@@ -1,7 +1,5 @@
-answer: cryptography
-
-hint: maybe try 12 of the same letter and find a pattern?
-
-solution: put in zzzzzzzzzzzz and figure out it's "cryptography"
-
-20 pts
+Answer: cryptography
+Hint: Maybe try 12 of the same letter and find a pattern?
+Solution: Put in zzzzzzzzzzzz and figure out it's "cryptography”.
+Tools: Vigenere
+Points: 40

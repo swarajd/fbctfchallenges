@@ -1,7 +1,5 @@
-answer: I_aint_got_sql
-
-hint: what other ways can you inject in a PHP server, assuming it's only PHP?
-
-solution: php injection instead (e.g try `'' || 1`)
-
-40 pts
+Answer: I_aint_got_sql
+Hint: what other ways can you inject in a PHP server, assuming it's only PHP?
+Solution: php injection instead (e.g try `'' || 1`)
+Tools: SQL Injection
+Points: 50

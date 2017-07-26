@@ -1,3 +1,4 @@
-answer: Time_is_Money_so_is_ATM_a_TimeMachine?
-hint: What is wayback timemachine?
-40 pts
+Answer: Time_is_Money_so_is_ATM_a_TimeMachine?
+Hint: What is wayback timemachine?
+Solution: Print the value of the first parameter passed to strings_are_equal.
+Points: 40

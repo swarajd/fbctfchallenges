@@ -1,7 +1,5 @@
-answer: scrappy_is_sidekick
-
-hint: what kind of files to websites use to prevent robots from scraping certain areas?
-
-solution: look at robots.txt and go to Scr4ppy.php
-
-15 pts
+Answer: scrappy_is_sidekick
+Hint: What kind of files to websites use to prevent robots from scraping certain areas?
+Solution: Look at robots.txt and go to Scr4ppy.php.
+Tools: IDOR
+Points: 20

@@ -1,7 +1,5 @@
-answer: eval_isworse
-
-hint: Try and _evaluate_ your choices when it comes to how to import
-
-solution: use eval to import
-
-30 pts
+Answer: eval_isworse
+Hint: Try and _evaluate_ your choices when it comes to how to import.
+Solution: Use eval to import.
+Tools: Python
+Points: 60

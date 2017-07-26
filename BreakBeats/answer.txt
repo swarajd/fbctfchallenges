@@ -1,9 +1,6 @@
-answer: ooh_steganography_tho
-
-note: the challenge itself is the .wav file
-
-hint: This is some spectral noise. Do you have the audacity to mess around with it?
-
-solution: open .wav file in audacity, click on arrow next to name, click on spectrogram
-
-20 pts
+Answer: ooh_steganography_tho
+Note: The challenge itself is the .wav file.
+Hint: This is some spectral noise. Do you have the audacity to mess around with it?
+Solution: Open .wav file in audacity, click on arrow next to name, click on spectrogram.
+Tools: Audacity
+Points: 30

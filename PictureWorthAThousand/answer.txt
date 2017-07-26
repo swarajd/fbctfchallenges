@@ -1,7 +1,5 @@
-answer: you_are_a_detective
-
-hint: criminal justice uses this information embedded in the data for an image for evidence. 
-
-solution: look at the exif data, specifically the comments
-
-10 pts
+Answer: you_are_a_detective
+Hint: Criminal justice uses this information embedded in the data for an image for evidence.
+Solution: Look at the exif data, specifically the comments.
+Tools: Exif
+Points: 10
