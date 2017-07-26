@@ -1,7 +1,5 @@
-answer: cenfodni
-
-hint: is there a trend you see in the hex references?
-
-solution: recognize that it's using an array as a "hashmap" and reconstruct the string from that
-
-100 pts
+Answer: cenfodni
+Hint: Is there a trend you see in the hex references?
+Solution: Recognize that it's using an array as a "hashmap" and reconstruct the string from that.
+Tools: GDB, Objdump, Shell Commands
+Points: 100

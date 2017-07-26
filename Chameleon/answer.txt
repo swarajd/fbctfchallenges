@@ -1,2 +1,4 @@
-live_like_chameleons
-0 pts
+Answer: live_like_chameleons 
+Tools: Browser
+hint: watch the intro video
+Points: 5

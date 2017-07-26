@@ -1,7 +1,5 @@
-answer: exec_isbad
-
-hint: get creative with HOW you can import ;)
-
-solution: use exec to import
-
-15 pts
+Answer: exec_isbad
+Hint: Get creative with HOW you can import.
+Solution: Use exec to import.
+Tools: Python
+Points: 40

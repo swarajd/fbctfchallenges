@@ -1,7 +1,5 @@
-answer: 39u7v25n1jxkl123
-
-hint: logins are network requests, right? See if you can find one here
-
-solution: use the SSL key to decrypt the pcap, search for a login
-
-50 pts
+Answer: 39u7v25n1jxkl123
+Hint: Follow the trail of the cryptographic method
+Solution: Use the SSL key to decrypt the pcap, search for a login.
+Tools: Steghide, Shell Commands
+Points: 60

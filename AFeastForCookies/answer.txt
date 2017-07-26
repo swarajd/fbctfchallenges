@@ -1,8 +1,5 @@
-answer: session_cookies_with_raisins
-
-
-hint: what are some of the ways you can view browser cookies?
-
-solution: enter "><Script>alert(document.cookie);</Script> in the input box, url decode cookie, decrypt result with Base64
-
-20 pts
+Answer: session_cookies_with_raisins
+Hint: What are some of the ways you can view browser cookies?
+Solution: enter "><Script>alert(document.cookie);</Script> in the input box, url decode cookie, decrypt result with Base64.
+Tools: Browser
+Points: 10

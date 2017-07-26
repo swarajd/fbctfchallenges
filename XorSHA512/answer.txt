@@ -1,5 +1,4 @@
-answer: 5724b8cda2e259337cac6ed61af8a22914ffba633432af1690d5d2525606967610027a9ecf01913af75b10dcc48fcb3f6ede67c269102212cd640aea55900a9e
-
-hint: For your key, try 'fb' or something...
-
-80 pts
+Answer: 5724b8cda2e259337cac6ed61af8a22914ffba633432af1690d5d2525606967610027a9ecf01913a
+Hint: For your key, try 'fb' or something…
+Tools: ???
+Points: 80

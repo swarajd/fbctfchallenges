@@ -1,7 +1,5 @@
-answer: vigenere
-
-hint: a hash does not make the best encryption key...
-
-solution: check the cookies for a md5 hash, decrypt that hash, use that 
-
-60 pts
+Answer: vigenere
+Hint: There’s some help in the cookies, but what does the decrypted cookie do for you?
+Solution: Check the cookies for a md5 hash, decrypt that hash, use that.
+Tools: MD5, Vigenere
+Points: 50

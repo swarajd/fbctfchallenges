@@ -18,11 +18,11 @@ Answer: Brute Force Attack
 --------------------------------------------------
 Question: What type of attack utilizes email-spoofing to target a specific organization or individual in order to gain unauthorized access to sensitive information?
 Answer: Spear Phishing
-5 pts
+Points: 10
 --------------------------------------------------
 Question: Which cyber attack consists of a group of infected devices controlled by an attacker?
 Answer: Botnet
-5 pts
+Points: 10
 --------------------------------------------------
 
 

@@ -1,7 +1,5 @@
-answer: name_is_alan
-
-hint: look at when the strings_are_equal method is being called and the parameters passed into into
-
-solution: print the value of the first parameter passed to strings_are_equal
-
-20 pts
+Answer: name_is_alan
+Hint: look at when the strings_are_equal method is being called and the parameters passed into into
+Solution:
+Tools: GDB, Objdump, Shell Commands
+Points: 60

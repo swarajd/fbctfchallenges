@@ -1,2 +1,4 @@
-glass_of_milk
-30 pts
+Answer: glass_of_milk
+Hint: Our Technicians only deal with cookies.
+Tools: Browser
+Points: 30
